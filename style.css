@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #488fe0;
+    --background-color:#0D1117;
+}
+
+body {
+    background-color:var(--background-color);
+    color: var(--primary-color);
+    font-family: 'Lobster', cursive;
+    margin: auto;
+
+}
+
+.container {
+    text-align: center;
+}
+
+
+input {
+    font-size: 12px;
+    outline: var(--primary-color);
+    padding: 0.6rem 1rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    display: block;
+    width: 20rem;
+    font-size: large;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.btn {
+    background: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+}
+
+#output-box {
+    margin-top: 1rem;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+.footer-line {
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+.footer .social-pills {
+    text-align: center;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+hr {
+    border: 1px solid var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.list-non-bullet {
+
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
